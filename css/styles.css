@@ -5,7 +5,9 @@
      --accent-color: #2196F3;
      --primary-text-color: #212121;
      --secondary-text-color: #757575;
-     --secondary-bgcolor: #2F303A;
+     --primary-bgcolor: #2F303A;
+     --secondary-bgcolor: #F5F4FA;
+
  }
  
  body {
@@ -135,12 +137,39 @@ line-height: 1.16;
 text-align: center;
 
 }
+/* Our team */
+.team {
+    background-color: var(--secondary-bgcolor);
+}
+.employee-link {
+    color: inherit;
+}
+.team-title {
+    
+    
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+}
 
+.employee-title {
+    
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+
+}
+.employee-text {
+    color: var(--secondary-text-color);
+    
+font-size: 16px;
+line-height: 1.18;
+}
 
 /* Footer */
 .page-footer,
 .page-hero {
-    background-color: var(--secondary-bgcolor);
+    background-color: var(--primary-bgcolor);
 }
 .address-link {
     color: var(--primary-white-color);
