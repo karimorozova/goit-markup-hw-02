@@ -20,6 +20,7 @@
      
 .link {
     text-decoration: none;
+    color: inherit;
 }
 .list {
     list-style: none;
@@ -31,7 +32,7 @@ cursor: pointer;
 /* Logo */
 .logo {
     color: var(--accent-color);
-    font-family: Raleway;
+    font-family:"Raleway", sans-serif;
 
 font-weight: 700;
 font-size: 26px;
@@ -58,8 +59,6 @@ line-height: 1.19;
 }
 
 .link-nav {
-    color: inherit;
-
  font-weight: 500;
  font-size: 14px;
  line-height: 1.14;
@@ -94,13 +93,8 @@ line-height: 1.19;
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
-
-
 text-align: center;
 letter-spacing: 0.06em;
-
-
-
 }
 .hero-button {
     background-color: var(--accent-color);
@@ -112,11 +106,15 @@ font-size: 16px;
 line-height: 1.87;
 text-align: center;
 letter-spacing: 0.06em;
+
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-
-
 border-radius: 4px;
+}
 
+.section-title {
+    font-size: 36px;
+line-height: 1.16;
+text-align: center;
 
 }
 
@@ -136,27 +134,9 @@ font-size: 14px;
 line-height: 1.71;
 }
 
-/* What we do */
-.title-work {
-    
-font-size: 36px;
-line-height: 1.16;
-text-align: center;
-
-}
 /* Our team */
 .team {
     background-color: var(--secondary-bgcolor);
-}
-.employee-link {
-    color: inherit;
-}
-.team-title {
-    
-    
-font-size: 36px;
-line-height: 1.16;
-text-align: center;
 }
 
 .employee-title {
@@ -210,7 +190,10 @@ line-height: 1.71;
     visibility: hidden;
 }
 .portfolio-btn {
+    color: var(--primary-text-color);
 
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0.03em;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
@@ -225,4 +208,17 @@ border-radius: 4px;
     color: var(--primary-white-color);
 background-color: var(--accent-color);
 }
- 
+
+.portfolio-example-title {
+    
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+}
+
+ .portfolio-example-text {
+     color: var(--secondary-text-color);
+    
+    font-size: 16px;
+    line-height: 1.87;
+ }
