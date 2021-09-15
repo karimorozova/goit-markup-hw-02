@@ -24,6 +24,10 @@
 .list {
     list-style: none;
 }
+.button {
+    border: none;
+cursor: pointer;
+}
 /* Logo */
 .logo {
     color: var(--accent-color);
@@ -110,13 +114,16 @@ text-align: center;
 letter-spacing: 0.06em;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
-border: none;
+
 border-radius: 4px;
-cursor: pointer;
+
 
 }
 
 /* Features */
+.features-title {
+    visibility: hidden;
+}
 .features-item-title {
     
 font-size: 14px;
@@ -194,5 +201,28 @@ line-height: 1.71;
 .contact-link:hover,
 .contact-link:focus {
     color: var(--accent-color);
+}
+
+
+/* PORTFOLIO */
+
+.portfolio-title {
+    visibility: hidden;
+}
+.portfolio-btn {
+
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+
+background-color: var(--secondary-bgcolor);
+border-radius: 4px;
+
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+    color: var(--primary-white-color);
+background-color: var(--accent-color);
 }
  
