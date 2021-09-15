@@ -31,19 +31,51 @@ font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
 
+
 }
+
 .header-logo {
     color: var(--primary-text-color);
 }
 .footer-logo {
     color: var(--primary-white-color);
 }
+/* .logo:hover,
+.logo:focus {
+    color: var(--accent-color);
+
+} */
 
 /* Header */
 .link-nav.current {
     color: var(--accent-color);
 }
 
+.link-nav {
+    color: inherit;
+
+ font-weight: 500;
+ font-size: 14px;
+ line-height: 1.14;
+ letter-spacing: 0.02em;
+ }
+ .link-nav:hover,
+ .link-nav:focus {
+     color: var(--accent-color);
+ }
+ .contacts-link {
+     color: var(--secondary-text-color);
+
+     font-weight: 500;
+ font-size: 14px;
+ line-height: 1.14;
+ letter-spacing: 0.02em;
+ }
+ .contacts-link:hover,
+ .contacts-link:focus {
+    color: var(--accent-color);
+
+ }
 /* Hero */
  
 .hero-title,
@@ -51,9 +83,32 @@ line-height: 1.19;
     text-transform: uppercase;
 }
 
-
+/* Footer */
 .page-footer {
     background-color: var(--secondary-bgcolor);
 }
+.address-link {
+    color: var(--primary-white-color);
+   
+font-style: normal;
 
+font-size: 14px;
+line-height: 1.71;
+}
+.address-link:hover,
+.address-link:focus {
+    color: var(--accent-color);
+}
+.contact-link {
+    color: var(--tarnsparent-text-color);
+    
+font-style: normal;
+
+font-size: 14px;
+line-height: 1.71;
+}
+.contact-link:hover,
+.contact-link:focus {
+    color: var(--accent-color);
+}
  
